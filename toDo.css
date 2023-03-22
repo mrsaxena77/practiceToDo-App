@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid{
+    margin: 0;
+    border: 1px solid;
+}
+
+.content{
+    border: 2px solid black;
+    height: 40px;
+    width: 10px;
+    background-color: rgb(50, 33, 12);
+    overflow-y: auto;
+}
