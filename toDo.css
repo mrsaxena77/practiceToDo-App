@@ -4,13 +4,20 @@
 
 .grid{
     margin: 0;
-    border: 1px solid;
+    /* border: 1px solid; */
+    position: fixed;
+    display: flex;
+
 }
 
 .content{
     border: 2px solid black;
-    height: 40px;
-    width: 50px;
-    background-color: rgb(50, 33, 12);
     overflow-y: auto;
+    margin-left: 35rem;
+}
+
+.subBtn{
+    border: 1px solid black;
+    margin-left: 1rem;
+    margin-top: 11px
 }
